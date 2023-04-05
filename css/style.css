@@ -1,0 +1,290 @@
+
+body {
+    width: 90%;
+    margin: auto;
+    background-color:#c6ceb7;
+    /* font-family: 'Gentium Plus', serif; */
+}
+
+.customerDetails{
+    height: 700px;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+    background-color:#153243;
+    margin: 10px;
+    padding: 20px;
+    color: white;
+}
+
+nav {
+    text-align: center;
+    /* background-color: rgb(223, 166, 43); */
+    padding: 10px 0px 20px 0px;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    padding: 5px 15px;
+    border: 2px solid black;
+}
+
+h1 {
+    text-align:center;
+    margin: auto;
+}
+
+.form-input{
+    margin: 10px;
+}
+
+.form-input label{
+    display: inline-block;
+    text-align: left;
+    width: 200px;
+}
+
+#message {
+    text-align: center;
+    margin-top: 10px;
+    color: darkred;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+div a{
+    font-size: 20px;
+    background-color:#01295F;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+}
+
+.row1 {
+    height: 200px;
+    width: 33%;
+    float: left;
+    margin : 50px 1px;
+}
+
+.row2 {
+    height: 200px;
+    width: 33%;
+    float: left;
+    margin : 50px 1px;
+}
+
+.row1 img {
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+.row2 img {
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+.row1 .paraDesc {
+    text-align: left;
+    color: brown;
+    font-size: 18px;
+    color: black;
+}
+
+.row2 .paraDesc {
+    text-align: left;
+    color: brown;
+    font-size: 18px;
+    color: black;
+}
+
+.row1 p label {
+    color: black;
+    font-weight: 600;
+}
+
+.row2 p label {
+    color: black;
+    font-weight: 600;
+}
+
+.row1 .btnCart {
+    font-size: 12px;
+    border: 1.5px solid black;
+    background-color :#01295F;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.row2 .btnCart {
+    font-size: 12px;
+    border: 1.5px solid black;
+    background-color :#01295F;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn{
+    font-size: 12px;
+    border: 1.5px solid black;
+    background-color :#01295F;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+footer {
+    margin: 20px 10px;
+    font-size: 20px;
+    background-color: #284B63;
+    padding: 20px;
+    color: white;
+}
+
+
+.hero_image img{
+    width: 100%;
+    height: 500px;
+}
+
+.desc{
+    margin: 15px;
+    text-align: justify;
+}
+
+.section1_image img{
+    width: 50%;
+    float: left;
+    margin: 15px;
+    height: 360px;
+    box-shadow: 5px 5px rgb(92, 64, 64);
+}
+
+.section2_image img{
+    float: right;
+    width: 34%;
+    height : 320px;
+    margin: 15px;
+    box-shadow: 5px 5px rgb(92, 64, 64);
+}
+
+.section1_desc {
+    width: 450px;
+    margin: 15px;
+    padding: 5px 0px;
+}
+
+.section1_desc p{
+    text-align:justify;
+}
+
+.section1_desc h2{
+    text-align: center;
+}
+
+.section2_desc {
+    width: 700px;
+    margin: 15px;
+    padding: 5px 0px;
+}
+
+#middle {
+    width: 650px;
+    float:left;
+    margin: 15px;
+    margin-left: 40px;
+    padding: 5px 0px;
+    text-align: justify;
+}
+#middle h2{
+    text-align: center;
+}
+
+.section2_desc p{
+    text-align:justify;
+}
+
+.section2_desc h2{
+    text-align: center;
+}
+
+.section3_image img{
+    float: left;
+    width: 30%;
+    margin: 15px;
+    height: 340px;
+    box-shadow: 5px 5px rgb(92, 64, 64);
+}
+
+#desc1 {
+    float: right;
+    margin-right: 40px;
+}
+
+#desc3 {
+    float: right;
+    margin-right: 40px;
+}
+
+aside {
+    width: 250px;
+    float: left;
+    padding: 0px 20px;
+}
+aside h1{
+    text-align: center;
+}
+aside div img {
+    width: 100%;
+}
+
+.main_image img{
+    width: 100%;
+    height: 450px;
+    box-shadow: 5px 5px rgb(92, 64, 64);
+}
+
+.inner_main {
+    width: 800px;
+    float: right;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.secondLayer {
+    position: absolute;
+    top: 0px;
+    bottom: 4px;
+    left: 0px;
+    right: 0px;
+    padding: 30%;
+    background-color: rgba(194, 185, 145, 0.292);
+}
+
+.secondLayer button a {
+    text-decoration: none;
+}
+
+.outerLayer {
+    position: relative;
+    width: 280px;
+    text-align: center;
+    overflow: hidden;
+}
+
+ul {
+    text-align: left;
+}

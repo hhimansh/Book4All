@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" type="text/javascript"></script>
+    <title>All BOOKed Club</title>
+</head>
+<body>
+    <header class="heading">ALL BOOKed CLUB</header>
+    <nav>
+        <a href="customerService.html">Customer Service</a>
+        <a href="index.html">Deals</a>
+        <a href="navigation.html">Navigation</a>
+        <a href="home.html">Home</a>
+    </nav>
+    <h1>Customer Details</h1>
+    <br>
+    <div class="customerDetails">
+        <form name="customerInfo" method="Post" onsubmit="return customerInfo();" action="post">
+            <div class="form-input">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-input">
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" placeholder="xxx-xxx-xxxx">
+            </div>
+            <div class="form-input">
+                <label for="cardNumber">Credit Card Number</label>
+                <input type="text" id="cardNumber" placeholder="xxxx-xxxx-xxxx-xxxx">
+            </div>
+            <div class="form-input">
+                <label for="cardMonthExpiry">Credit Card Expiry Month</label>
+                <input type="text" id="cardMonthExpiry" placeholder="XX">
+            </div>
+            <div class="form-input">
+                <label for="cardYearExpiry">Credit Card Expiry Year</label>
+                <input type="text" id="cardYearExpiry" placeholder="YYYY">
+            </div>
+            <div>
+                <input type="submit" value="ORDER" class="btn">
+                <!-- <input type="submit" value="RESERVE" class="btn"> -->
+                <!-- <button class="btn">ORDER</button> -->
+            </div>
+            <p id="errDisplay2"></p>
+        </form>
+    </div>
+    <p id="finalReceipt"></p>
+    <footer>&copy; 2023 AllBooked.com</footer>
+</body>
+</html>
